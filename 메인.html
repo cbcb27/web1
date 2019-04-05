@@ -4,18 +4,42 @@
  <title>박한성 - 27세</title>
  <meta charset="utf-8">
  <style>
-  a {
-    color:black;
-    text-decoration: none;
+ body {
+   margin:0;
+ }
+ #active {
+   color:red;
+ }
+ .saw{
+   color:black;
+ }
+ a {
+   color:black;
+   text-decoration: none;
+   text-align: center;
+   }
+  h1 {
+    font-wight: bold;
+    font-size: 45px;
+    text-align: center;
+    border-bottom: black 5px solid;
+    margin:0;
+    padding: 20px;
+     }
+   ol {
+    border-right:5px solid black;
+    width: 100px;
+    margin:0;
+    padding: 20px;
+      }
   }
  </style>
 </head>
 <body>
-  <h1><a href="메인.html">박한성</a></h1>
-  <img src="man.png" width=10%>
+  <h1><a href="메인.html"><img src="man.png" width=10%>박한성</a></h1>
   <ol>
-   <li><a href="학력.html">학력</a></li>
-   <li><a href="성격.html">성격</a></li>
+    <li><a href="학력.html" class="saw">학력</a></li>
+    <li><a href="성격.html" class="saw" id="active">성격</a></li>
    <li><a href="능력.html">능력</a></li>
   </ol>
   <p>1993년 11월 24일....</p>
